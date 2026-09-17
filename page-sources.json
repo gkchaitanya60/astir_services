@@ -1,0 +1,218 @@
+{
+  "about.html": {
+    "title": "About Astir Services",
+    "source": "https://astirservices.net/Aboutus.aspx"
+  },
+  "why-astir-services.html": {
+    "title": "Why Astir Services",
+    "source": "https://astirservices.net/why_astir_services.aspx"
+  },
+  "it-consulting.html": {
+    "title": "IT Consulting",
+    "source": "https://astirservices.net/Itconsulting.aspx"
+  },
+  "technologies.html": {
+    "title": "Technologies",
+    "source": "https://astirservices.net/Technologies.aspx"
+  },
+  "industries.html": {
+    "title": "Industries",
+    "source": "https://astirservices.net/Industries.aspx"
+  },
+  "it-services.html": {
+    "title": "IT Services",
+    "source": "https://astirservices.net/Services.aspx"
+  },
+  "application-development.html": {
+    "title": "Application Development",
+    "source": "https://astirservices.net/ApplicationDevelopment.aspx"
+  },
+  "blockchain.html": {
+    "title": "Blockchain Services",
+    "source": "https://astirservices.net/BlockChainServices.aspx"
+  },
+  "understanding-blockchain.html": {
+    "title": "Understanding Blockchain",
+    "source": "https://astirservices.net/WhatisBlockChain.aspx"
+  },
+  "business-intelligence.html": {
+    "title": "Business Intelligence & Big Data",
+    "source": "https://astirservices.net/Business_Intelligence_BI.aspx"
+  },
+  "crm.html": {
+    "title": "Customer Relationship Management",
+    "source": "https://astirservices.net/Customer_Relationship_Management_CRM.aspx"
+  },
+  "crm-benefits.html": {
+    "title": "CRM Opportunities",
+    "source": "https://astirservices.net/CRM_Opportunities.aspx"
+  },
+  "crm-implementation.html": {
+    "title": "Implementing CRM",
+    "source": "https://astirservices.net/How_to_Implement_CRM.aspx"
+  },
+  "crm-challenges.html": {
+    "title": "CRM Challenges",
+    "source": "https://astirservices.net/CRM_Challenges.aspx"
+  },
+  "data-management.html": {
+    "title": "Data Management",
+    "source": "https://astirservices.net/DataManagementServices.aspx"
+  },
+  "devops.html": {
+    "title": "DevOps Solutions",
+    "source": "https://astirservices.net/DevOpsSolutions.aspx"
+  },
+  "erp.html": {
+    "title": "Enterprise Resource Planning",
+    "source": "https://astirservices.net/EnterpriseResourcePlanningServicesandSolutions.aspx"
+  },
+  "infrastructure.html": {
+    "title": "Infrastructure, Networking & Security",
+    "source": "https://astirservices.net/Infrastructure_Support_Services.aspx"
+  },
+  "mobile-applications.html": {
+    "title": "Mobile Development",
+    "source": "https://astirservices.net/MobileDevelopmentServices.aspx"
+  },
+  "quality-assurance.html": {
+    "title": "Software Quality Assurance",
+    "source": "https://astirservices.net/Testing_and_Quality_Assurance_QA__Services.aspx"
+  },
+  "it-products.html": {
+    "title": "IT Products",
+    "source": "https://astirservices.net/Products.aspx"
+  },
+  "applicant-tracking-system.html": {
+    "title": "Applicant Tracking System",
+    "source": "https://astirservices.net/Applicant_Tracking_System.aspx"
+  },
+  "survey-engine.html": {
+    "title": "Survey Engine",
+    "source": "https://astirservices.net/Survey_Engine.aspx"
+  },
+  "case-studies.html": {
+    "title": "Case Studies",
+    "source": "https://astirservices.net/CaseStudies.aspx"
+  },
+  "case-consulting-data-warehousing.html": {
+    "title": "Consulting & Data Warehousing",
+    "source": "https://astirservices.net/Consulting_Data_Warehousing.aspx"
+  },
+  "case-crm-integration.html": {
+    "title": "CRM Integration",
+    "source": "https://astirservices.net/CRM_Integration.aspx"
+  },
+  "case-database-management.html": {
+    "title": "Database Management",
+    "source": "https://astirservices.net/Database_Management.aspx"
+  },
+  "case-data-management.html": {
+    "title": "Data Management",
+    "source": "https://astirservices.net/Data_Management.aspx"
+  },
+  "case-data-warehousing.html": {
+    "title": "Data Warehousing",
+    "source": "https://astirservices.net/Data_Warehousing.aspx"
+  },
+  "case-data-warehousing-reporting.html": {
+    "title": "Data Warehousing & Reporting",
+    "source": "https://astirservices.net/Data_Warehousing_and_Reporting.aspx"
+  },
+  "case-edi.html": {
+    "title": "Electronic Data Interchange",
+    "source": "https://astirservices.net/EDI.aspx"
+  },
+  "case-sap-upgrade.html": {
+    "title": "System Upgrade: SAP",
+    "source": "https://astirservices.net/System_Upgrade_SAP.aspx"
+  },
+  "case-testing-automation.html": {
+    "title": "Testing Automation",
+    "source": "https://astirservices.net/Testing_Automation.aspx"
+  },
+  "sponsorship-immigration.html": {
+    "title": "Sponsorship & Immigration",
+    "source": "https://astirservices.net/SponsorshipandImmigration.aspx"
+  },
+  "h1b-sponsorship.html": {
+    "title": "H1B Visa Sponsorship",
+    "source": "https://astirservices.net/H1B_Visa_Sponsorship_Program.aspx"
+  },
+  "tn-sponsorship.html": {
+    "title": "TN Visa Sponsorship",
+    "source": "https://astirservices.net/TN_Visa_Sponsorship.aspx"
+  },
+  "e3-sponsorship.html": {
+    "title": "E3 Visa Sponsorship",
+    "source": "https://astirservices.net/E3_Visa_Sponsorship_Program.aspx"
+  },
+  "h1b-transfer.html": {
+    "title": "H1B Visa Transfer",
+    "source": "https://astirservices.net/H1_Transfer_Candidates.aspx"
+  },
+  "h4-ead.html": {
+    "title": "H4 EAD Candidates",
+    "source": "https://astirservices.net/H4_EAD_candidates.aspx"
+  },
+  "f1-training.html": {
+    "title": "F1 Training & Placement",
+    "source": "https://astirservices.net/F1_OPT_CPT_IT_Training_and_Placement.aspx"
+  },
+  "l2-opportunities.html": {
+    "title": "L2 Career Opportunities",
+    "source": "https://astirservices.net/L2_Job_Placement_and_H1_Processing.aspx"
+  },
+  "careers.html": {
+    "title": "Current Openings",
+    "source": "https://astirservices.net/current_openings.aspx"
+  },
+  "benefits.html": {
+    "title": "Careers & Benefits",
+    "source": "https://astirservices.net/benefits_at_astir_services.aspx"
+  },
+  "contact.html": {
+    "title": "Contact Astir Services",
+    "source": "https://astirservices.net/contactus.aspx"
+  },
+  "news.html": {
+    "title": "Latest from the Astir Family",
+    "source": "https://astirservices.net/RecentPressReleases.aspx"
+  },
+  "news-archive.html": {
+    "title": "News Archive",
+    "source": "https://astirservices.net/ArchivedReleases.aspx"
+  },
+  "news-bounceback-ai.html": {
+    "title": "Introducing BounceBack AI",
+    "source": "https://astirservices.net/PressReleaseSeptember2026.aspx"
+  },
+  "news-top-100.html": {
+    "title": "NJBIZ Top 100 Recognition",
+    "source": "https://astirservices.net/PressReleaseAugust2026.aspx"
+  },
+  "news-minority-business.html": {
+    "title": "Minority-Owned Business Recognition",
+    "source": "https://astirservices.net/PressReleaseJuly2026.aspx"
+  },
+  "terms.html": {
+    "title": "Terms & Conditions",
+    "source": "https://astirservices.net/TermsandConditions.aspx"
+  },
+  "privacy.html": {
+    "title": "Privacy Policy",
+    "source": "https://astirservices.net/PrivacyPolicy.aspx"
+  },
+  "services-solutions.html": {
+    "title": "Services & Solutions",
+    "source": "https://astirservices.net/Services.aspx"
+  },
+  "index.html": {
+    "title": "Astir Services \u2014 Business moves. Move it forward.",
+    "source": "https://astirservices.net/"
+  },
+  "sitemap.html": {
+    "title": "Sitemap",
+    "source": "https://astirservices.net/Sitemap.aspx"
+  }
+}

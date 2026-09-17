@@ -1,0 +1,47 @@
+/* Astir Services branding; original supplied artwork is used without alteration. */
+.site-header,.opal-home .site-header{background:linear-gradient(90deg,#f1f3ec 0px,#f1f3ec 260px,#68716d 330px,#252b2e 410px,#252b2ee8 100%)}
+.site-header .header-inner{width:min(1440px,calc(100% - 64px));gap:22px}
+.site-header .brand{flex-basis:185px;width:185px;height:75px;overflow:hidden}
+.site-header .brand img{width:240px;height:94.5px;max-width:none;position:absolute;left:-27px;top:-10px;object-fit:contain}
+.site-header #main-navigation{gap:17px}
+.site-header #main-navigation>a,.site-header .dropdown-toggle{font-size:14px}
+.site-header .header-cta{padding:10px 15px}
+.site-header .dropdown-toggle.active:after{content:'';position:absolute;left:0;right:0;bottom:4px;height:2px;background:var(--gradient)}
+.site-header #main-navigation a[aria-current=page]{color:#e1eadf}
+.site-header .nav-dropdown:has(.services-mega){position:static}
+.site-header .services-mega{display:grid;grid-template-columns:1fr 1.2fr 1.2fr;gap:24px;width:min(920px,calc(100vw - 90px));max-height:calc(100dvh - 115px);overflow:auto;left:50%;top:82px;transform:translateX(-50%);padding:24px}
+.services-mega p{font-size:11px;letter-spacing:.13em;color:#bccabc;text-transform:uppercase;margin:6px 10px 9px}
+.services-mega p:not(:first-child){margin-top:20px}
+.site-header .services-mega a{font-size:14px;padding:9px 10px;line-height:1.4}
+.site-header .dropdown-panel a.active{background:#465753}
+footer{background:linear-gradient(90deg,#e7ece3 0px,#e7ece3 220px,#5e6964 310px,#252b2e 400px,#252b2e 100%)}
+footer .footer-inner{min-height:115px}
+footer .brand{width:170px;flex-basis:170px;height:75px;overflow:hidden}
+footer .brand img{width:220px;height:86.7px;position:absolute;left:-25px;top:-6px;max-width:none}
+.footer-legal{background:#252b2e;width:100%;padding:15px max(32px,calc((100vw - 1280px)/2))}
+.source-copy p{max-width:850px;margin-bottom:20px}.source-copy p:last-child{margin-bottom:0}
+.source-copy ul,.source-copy ol{padding-left:22px;margin:20px 0;columns:2;column-gap:40px}.source-copy li{break-inside:avoid;margin-bottom:12px;padding-left:5px}
+.source-copy a{color:#4f7068;text-decoration:underline;text-underline-offset:4px}.source-copy a.button{color:#fff;text-decoration:none}
+.source-copy .folio-collection a{text-decoration:none}.source-copy table{width:100%;border-collapse:collapse}.source-copy td,.source-copy th{padding:13px;border-bottom:1px solid #ccd6cd;text-align:left}
+.services-sitemap{columns:3!important}.folio-section h2{overflow-wrap:anywhere}
+@media(min-width:1550px){.site-header,.opal-home .site-header{background:linear-gradient(90deg,#f1f3ec 0px,#f1f3ec calc((100vw - 1440px)/2 + 230px),#252b2e calc((100vw - 1440px)/2 + 400px),#252b2ee8 100%)}}
+@media(max-width:1340px){.site-header .menu-toggle{display:block;margin-left:auto}.site-header #main-navigation{display:none;position:absolute;top:85px;left:24px;right:24px;background:#293235;border:1px solid #bbcfc644;padding:18px;border-radius:7px;max-height:calc(100dvh - 110px);overflow:auto;box-shadow:0 20px 35px #0005}.site-header #main-navigation.is-open{display:block}.site-header #main-navigation>a,.site-header .dropdown-toggle{font-size:16px;padding:13px 10px;white-space:normal}.site-header .dropdown-panel{position:static;transform:none;margin:5px 0 10px;min-width:0;width:auto;box-shadow:none;border:0;background:#364244}.site-header .dropdown-toggle{width:100%;justify-content:space-between}.site-header .services-mega{display:grid;grid-template-columns:repeat(3,1fr);max-height:none;padding:16px;gap:16px}.site-header .nav-dropdown{position:relative}.site-header .dropdown-toggle.active:after{left:10px;right:10px}}
+@media(max-width:700px){.site-header,.opal-home .site-header{background:linear-gradient(90deg,#f1f3ec 0px,#f1f3ec 190px,#252b2e 270px)}.site-header .header-inner{width:calc(100% - 32px);gap:10px}.site-header .brand{width:155px;flex-basis:155px;height:65px}.site-header .brand img{width:205px;height:80.8px;left:-23px;top:-8px}.site-header .services-mega{grid-template-columns:1fr;gap:14px}.site-header .header-cta{padding:9px 10px;font-size:12px;gap:7px}.site-header .header-cta span{display:none}.site-header #main-navigation{left:16px;right:16px}.source-copy ul,.source-copy ol,.services-sitemap{columns:1!important}.footer-inner{display:flex;flex-direction:column;align-items:flex-start;gap:24px}.footer-inner .brand{flex-basis:auto}.footer-inner nav{padding-top:4px}footer{background:linear-gradient(150deg,#e7ece3 0px,#e7ece3 160px,#252b2e 260px)}.footer-inner>p{flex-basis:auto}.footer-legal{padding:20px}.contact-layout{min-width:0}}
+/* Preserve the full logo lettering within the footer's taller lockup. */
+footer .footer-inner .brand{height:85px;min-height:85px;flex-basis:170px}
+footer .footer-inner .brand img{top:-3px}
+@media(max-width:700px){footer{background:#252b2e}footer .footer-inner .brand{height:85px;min-height:85px;flex-basis:auto;background:#edf1e9!important;border-radius:5px}}
+
+/* Latest approved white-lettered logo sits directly on the dark chrome. */
+.site-header,.opal-home .site-header{background:#252b2e}
+.opal-home .site-header{background:linear-gradient(180deg,#252b2ef5,#252b2edb)}
+footer{background:#252b2e}
+footer .footer-inner .brand{background:transparent!important;border-radius:0}
+.source-copy{overflow-wrap:anywhere;min-width:0}
+
+/* User-approved logo sizing: no left/top offsets. */
+.site-header .brand{height:80px;overflow:visible}
+.site-header .brand img{width:180px;height:80px;max-width:none;position:absolute;left:auto;top:auto;object-fit:contain}
+@media(max-width:700px){.site-header .brand{height:68px}.site-header .brand img{width:150px;height:68px;left:auto;top:auto}}
+
+.site-header .dropdown-toggle{position:relative}

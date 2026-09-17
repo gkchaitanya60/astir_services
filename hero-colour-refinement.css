@@ -1,0 +1,21 @@
+/* Option 5: a lighter, more colourful hero for the Astir Services direction.
+   Scoped to the homepage hero; layout, assets and animation remain unchanged. */
+.opal-home .hero{background:#2c3944}
+.opal-home .hero .city{filter:saturate(.82) brightness(1.12);opacity:.94}
+.opal-home .hero .hero-shade{background:linear-gradient(90deg,rgba(30,41,51,.95) 0%,rgba(34,46,57,.88) 27%,rgba(39,53,66,.43) 52%,rgba(41,54,69,.12) 77%,rgba(43,53,68,.10)),linear-gradient(0deg,rgba(34,45,53,.66),transparent 42%)}
+.opal-home .hero .glass-panel .photo>svg{filter:saturate(.94) brightness(1.07)}
+@media(max-width:1000px){.opal-home .hero .hero-shade{background:linear-gradient(90deg,rgba(30,41,51,.94) 0%,rgba(34,46,57,.78) 38%,rgba(39,53,66,.26) 72%,rgba(41,54,69,.12)),linear-gradient(0deg,rgba(34,45,53,.65),transparent 52%)}}
+@media(max-width:650px){.opal-home .hero .city{opacity:.92}.opal-home .hero .hero-shade{background:linear-gradient(180deg,rgba(30,41,51,.95) 0%,rgba(34,46,57,.92) 34%,rgba(39,53,66,.46) 52%,rgba(41,54,69,.14) 76%,rgba(34,45,53,.75))}}
+/* Selected backgrounds: City in Motion hero; Connected Waterfront What's Next. */
+.opal-home .hero .city{
+ background-image:url('assets/city-in-motion.png');
+ background-position:center 53%;
+ filter:saturate(.92) brightness(1.06);
+}
+.opal-home .next .next-backdrop{
+ background:linear-gradient(90deg,rgba(28,39,49,.78),rgba(32,46,58,.62) 55%,rgba(28,39,49,.74)),url('assets/connected-waterfront.png') center 60%/cover no-repeat;
+}
+@media(max-width:650px){
+ .opal-home .hero .city{background-position:64% bottom}
+ .opal-home .next .next-backdrop{background-position:center,65% center}
+}

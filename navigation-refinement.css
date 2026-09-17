@@ -1,0 +1,90 @@
+/* Shared navigation refinement; supplied logo artwork remains unchanged. */
+.site-header .header-inner{width:min(1440px,calc(100% - 64px));gap:18px;height:104px}
+.site-header{height:104px}
+.site-header .brand,footer .footer-inner .brand{position:relative;display:block;width:184px;flex:0 0 184px;height:87px;min-height:87px;overflow:hidden;background:none!important;padding:0;border:0}
+.site-header .brand img,footer .footer-inner .brand img{position:absolute;width:240px;height:100px;max-width:none;left:0;top:-13.44px;object-fit:contain;filter:none;transform:none}
+.site-header #main-navigation{gap:4px;flex:1;justify-content:flex-end}
+.site-header #main-navigation>a,.site-header .dropdown-toggle{padding:14px 10px;font-size:14px;font-weight:500;line-height:1.4;border-radius:5px;transition:background .18s,color .18s}
+.site-header #main-navigation>a:hover,.site-header .dropdown-toggle:hover,.site-header .dropdown-toggle[aria-expanded=true]{background:#c6d7d710;color:#e8f0ec}
+.site-header #main-navigation>a.active:after,.site-header .dropdown-toggle.active:after{left:10px;right:10px;bottom:4px;height:2px;background:var(--gradient)}
+.site-header .dropdown-toggle svg{transition:transform .2s;width:12px;height:12px}
+.site-header .dropdown-toggle[aria-expanded=true] svg{transform:rotate(180deg)}
+.site-header .nav-dropdown{position:static}
+.site-header .alliance-services-menu{display:grid;grid-template-columns:220px 1fr;width:710px;max-width:calc(100vw - 64px);padding:0;gap:0;top:95px;right:145px;left:auto;transform:none;background:#293234;border:1px solid #afc3bb40;border-radius:8px;box-shadow:0 24px 50px #06191760;overflow:hidden;max-height:calc(100dvh - 120px);animation:servicesMenuEnter .2s ease both}
+.services-menu-intro{padding:30px 25px;background:linear-gradient(140deg,#53605c,#3c494c 70%,#444650);display:flex;flex-direction:column;align-items:stretch}
+.site-header .services-menu-intro .eyebrow{font-size:9px;letter-spacing:.12em;color:#dde8e0;margin:0 0 20px}
+.site-header .services-menu-intro .menu-headline{font:32px/1.08 Georgia,serif;letter-spacing:-.035em;color:#f5f4ec;text-transform:none;margin:0 0 28px}
+.services-menu-intro .menu-headline em{font-weight:400;color:#c8d7d2}
+.site-header .services-menu-intro>a{display:flex;align-items:center;justify-content:space-between;padding:0;font-size:12px;margin-top:auto;color:#e6eee8;gap:15px}
+.site-header .services-menu-intro>a:hover{background:none;text-decoration:underline;text-underline-offset:4px}
+.services-menu-items{padding:14px 20px}
+.site-header .services-menu-items>a{display:grid;grid-template-columns:43px 1fr 18px;align-items:center;gap:17px;padding:20px 10px;border-radius:5px;line-height:1.4;min-height:94px;border-bottom:1px solid #ccdad01a}
+.site-header .services-menu-items>a:last-child{border-bottom:0}
+.site-header .services-menu-items>a:hover,.site-header .services-menu-items>a:focus-visible,.site-header .services-menu-items>a.active{background:#a5c1b512}
+.services-menu-items strong{display:block;color:#f1f3f0;font-size:15px;font-weight:550}
+.services-menu-items small{display:block;color:#b5c3c1;font-size:12px;margin-top:5px;line-height:1.5}
+.service-menu-icon{width:43px;height:45px;display:grid;place-items:center;border:1px solid #bbcfca45;background:linear-gradient(140deg,#acc5ba16,#9191b11c);border-radius:5px;color:#c2d5cc}
+.service-menu-icon svg{width:26px;height:26px;fill:none;stroke:currentColor;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round}
+.service-menu-arrow{font-size:19px;color:#b7cec5}
+@keyframes servicesMenuEnter{from{opacity:0;translate:0 -5px}to{opacity:1;translate:0 0}}
+footer .footer-inner{min-height:132px;align-items:center}
+.company-strengths{margin-top:30px;border-top:1px solid #93a89c50}
+.company-strengths details{border-bottom:1px solid #93a89c50}
+.company-strengths summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:24px;padding:22px 0;font-size:21px;color:#344e48;font-weight:500}
+.company-strengths summary::-webkit-details-marker{display:none}
+.company-strengths summary:after{content:'+';font-size:26px;font-weight:300;color:#718f83}
+.company-strengths details[open] summary:after{content:'−'}
+.company-strengths .strength-copy{padding:0 0 24px}
+.company-strengths .strength-copy p{font-size:15px;line-height:1.8}
+.career-page-links{display:flex;align-items:center;flex-wrap:wrap;gap:20px;margin-top:30px}
+.editorial-intro .career-page-links .text-link{margin:0}
+#current-openings,#why-astir-services{scroll-margin-top:120px}
+@media(min-width:1201px){
+.site-header .menu-toggle{display:none}
+.site-header #main-navigation{display:flex;position:static;max-height:none;overflow:visible;background:none;padding:0;border:0;box-shadow:none}
+.site-header .dropdown-toggle{width:auto;white-space:nowrap}
+.site-header #main-navigation>a{white-space:nowrap}
+.site-header .header-cta{display:inline-flex}
+}
+@media(max-width:1200px){
+.site-header .menu-toggle{display:block;margin-left:auto}
+.site-header #main-navigation{display:none;position:absolute;top:98px;left:24px;right:24px;background:#293235;border:1px solid #bbcfc644;padding:16px;border-radius:7px;max-height:calc(100dvh - 116px);overflow:auto;box-shadow:0 20px 35px #0005}
+.site-header #main-navigation.is-open{display:block}
+.site-header #main-navigation>a,.site-header .dropdown-toggle{font-size:16px;padding:14px 10px;white-space:normal;width:100%;justify-content:space-between}
+.site-header .alliance-services-menu{position:static;transform:none;translate:none;width:100%;max-width:none;max-height:none;margin:8px 0 15px;box-shadow:none;grid-template-columns:200px 1fr}
+.site-header .header-cta{display:inline-flex}
+}
+@media(max-width:700px){
+.site-header,.site-header .header-inner{height:88px}
+.site-header .header-inner{width:calc(100% - 32px);gap:12px}
+.site-header .brand{width:152px;flex-basis:152px;height:73px;min-height:73px}
+.site-header .brand img{width:240px;height:100px;left:0;top:-11.2px}
+.site-header #main-navigation{top:83px;left:16px;right:16px;max-height:calc(100dvh - 100px);padding:12px}
+.site-header .header-cta{font-size:12px;padding:9px 12px;min-height:39px}
+.site-header .alliance-services-menu{display:block}
+.services-menu-intro{padding:18px}
+.site-header .services-menu-intro .eyebrow,.site-header .services-menu-intro .menu-headline{display:none}
+.site-header .services-menu-intro>a{font-size:13px}
+.services-menu-items{padding:7px}
+.site-header .services-menu-items>a{padding:17px 10px;gap:12px;grid-template-columns:37px 1fr 15px}
+.service-menu-icon{width:37px;height:40px}.service-menu-icon svg{width:24px;height:24px}
+.services-menu-items strong{font-size:14px}.services-menu-items small{font-size:11px}
+footer .footer-inner{align-items:flex-start}
+footer .footer-inner .brand{flex-basis:auto}
+.career-page-links{gap:17px}.career-page-links .button{font-size:12px}
+}
+@media(prefers-reduced-motion:reduce){.site-header .alliance-services-menu{animation:none}}
+
+.site-header .services-menu-intro{white-space:normal}
+
+/* Balance the logo with navigation and align branding with the page content. */
+.site-header .header-inner{width:min(1280px,calc(100% - 64px))}
+.site-header .brand,footer .footer-inner .brand{width:152px;flex-basis:152px;height:74px;min-height:74px}
+.site-header .brand img,footer .footer-inner .brand img{width:240px;height:100px;left:0;top:-11.2px}
+footer .footer-inner{padding-block:24px}
+@media(max-width:700px){
+.site-header .header-inner{width:calc(100% - 40px)}
+.site-header .brand{width:128px;flex-basis:128px;height:62px;min-height:62px}
+.site-header .brand img{width:240px;height:84px;left:-6.72px;top:-9.408px}
+footer .footer-inner .brand{flex-basis:auto}
+}
